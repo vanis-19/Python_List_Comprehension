@@ -1,9 +1,14 @@
 l=[['Graguation', 'Jntu', 'Hyderabad'], ['Inter', 'Srigayathri', 'Kurnool'],['Mirafra', 'softeare','Bang']]
-'''l1=[]
+l1=[]
 l2=[]
+l3=[]
 for x,y,z in l:
     l1.append(x)
-print(l1) ''' 
+    l2.append(y)
+    l3.append(z)
+print(l1)
+print(l2)
+print(l3)  
 
 l1=[x for x,y,z in l]
 print(l1)
